@@ -1,0 +1,9 @@
+# npm 发布时排除的文件
+state.json
+state.json.*
+state.*.json
+*.bak
+*.bak-*
+node_modules/
+.github/
+shot-panel.png
