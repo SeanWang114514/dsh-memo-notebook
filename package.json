@@ -1,10 +1,28 @@
 {
   "name": "memo-notebook",
   "version": "1.0.0",
-  "private": true,
   "description": "按工作区记录未完成任务：自动捕获排队/执行中的用户指令，持久化到磁盘，一键恢复重发。",
   "type": "module",
   "main": "./lib/index.mjs",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "memo",
+    "todo",
+    "deepseek-harness"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeanWang114514/dsh-memo-notebook.git"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "screenshots.json"
+  ],
   "exports": {
     ".": {
       "default": "./lib/index.mjs"
