@@ -1,0 +1,9 @@
+# runtime data (never commit)
+state.json
+state.json.*
+state.*.json
+*.bak
+*.bak-*
+
+# node
+node_modules/

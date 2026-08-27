@@ -1,0 +1,9 @@
+# memo-notebook bundle patch
+# Installed through `dsh plugin --profile <name> add memo-notebook` (or a
+# manual link: dependency + bundles entry). The boot merges this patch and
+# mounts one plugin row: the Host control API plus the Client sidebar entry.
+- insert:
+    - id: memo-notebook
+      name: memo-notebook
+      config:
+        stateFile: !!js dshHomePath('memo-notebook/state.json')
